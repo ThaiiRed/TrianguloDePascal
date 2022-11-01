@@ -23,7 +23,7 @@ namespace TrianguloDePascal
         {
             int profundidade = Convert.ToInt32(depth);
 
-            // Allocate the array in a triangle form
+            // Allocate the array in a triangle form!
             long[][] triangulo = new long[profundidade + 1][];
 
             for (int linha = 0; linha < profundidade; linha++)
